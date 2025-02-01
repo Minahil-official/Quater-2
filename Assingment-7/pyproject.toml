@@ -1,0 +1,22 @@
+[project]
+name = "assingment-7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Minahil Nawaz", email = "minahilnawaz98@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "litellm>=1.59.12",
+]
+
+[project.scripts]
+assingment-7 = "assingment_7:main"
+hello = "assingment_7.hello:greet"
+gemini = "assingment_7.gemini:llm"
+groq = "assingment_7.gemini:llm2"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
