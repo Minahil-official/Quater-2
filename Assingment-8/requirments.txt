@@ -1,0 +1,4 @@
+dotenv
+langchain_google_genai
+venv
+gitignore
